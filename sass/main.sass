@@ -1,0 +1,37 @@
+@import "_vars"
+@import "_mixin"
+@import "_fonts"   
+@import "_reboot"  
+
+
+body
+  font-family: 'Open Sans', sans-serif
+  font-size: 16px
+  overflow-x: hidden
+   
+img
+  display: block
+  max-width: 100%
+  height: auto
+
+.container
+
+.containerFliud
+  width: 100vw
+  position: relative
+  left: 50%
+  right: 50%
+  margin-left: -50vw
+  margin-right: -50vw
+
+.hide
+  display: none
+
+
+// include page.components
+@import "page.components/_btnLink"
+
+// include page.blocks
+@import "page.blocks/_header" 
+@import "page.blocks/_content" 
+@import "page.blocks/_footer" 
