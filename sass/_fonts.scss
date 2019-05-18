@@ -2,6 +2,7 @@
 				Fonts
 ------------------------------------------*/
 
+// Open Sans
 
 @font-face {
   font-family: 'Open Sans';
@@ -63,3 +64,94 @@
   font-weight: 800;
   font-style: italic;
 }
+
+// Decalotype 
+
+@font-face {
+  font-family: 'Decalotype-Regular';
+  src: local('Decalotype-Regular'), local('Decalotype-Regular'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Regular.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Regular.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-Black';
+  src: local('Decalotype-Black'), local('Decalotype-Black'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Black.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Black.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-Bold';
+  src: local('Decalotype-Bold'), local('Decalotype-Bold'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Bold.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Bold.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-BoldItalic';
+  src: local('Decalotype-BoldItalic'), local('Decalotype-BoldItalic'), 
+  url('../fonts/Decalotype/WEB/Decalotype-BoldItalic.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-BoldItalic.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-ExtraBold';
+  src: local('Decalotype-ExtraBold'), local('Decalotype-ExtraBold'), 
+  url('../fonts/Decalotype/WEB/Decalotype-ExtraBold.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-ExtraBold.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-Italic';
+  src: local('Decalotype-Italic'), local('Decalotype-Italic'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Italic.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Italic.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-Light';
+  src: local('Decalotype-Light'), local('Decalotype-Light'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Light.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Light.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-LightItalic';
+  src: local('Decalotype-LightItalic'), local('Decalotype-LightItalic'), 
+  url('../fonts/Decalotype/WEB/Decalotype-LightItalic.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-LightItalic.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-Medium';
+  src: local('Decalotype-Medium'), local('Decalotype-Medium'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Medium.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Medium.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-SemiBold';
+  src: local('Decalotype-SemiBold'), local('Decalotype-SemiBold'), 
+  url('../fonts/Decalotype/WEB/Decalotype-SemiBold.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-SemiBold.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Decalotype-SemiBold';
+  src: local('Decalotype-SemiBold'), local('Decalotype-SemiBold'), 
+  url('../fonts/Decalotype/WEB/Decalotype-SemiBold.woff2') format('woff2'), 
+  url('../fonts/Decalotype/WEB/Decalotype-SemiBold.woff') format('woff'), 
+  url('../fonts/Decalotype/WEB/Decalotype-SemiBold.ttf') format('truetype');
+}
+

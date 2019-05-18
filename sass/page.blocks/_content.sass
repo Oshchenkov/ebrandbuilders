@@ -1,0 +1,216 @@
+//
+// hero-blackFont
+//
+
+.hero-blackFont
+  background-color: #ccc
+  background-image: url('/images/heroDark.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top center
+  min-height: 680px
+  display: flex
+  &__col
+    width: 60%
+    color: $c-white
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 100%
+    text-align: center
+  &__title
+    font-family: Decalotype-ExtraBold
+    font-size: 30px
+    line-height: 36px
+    margin-bottom: 20px
+  &__desc
+    font-family: Decalotype-Regular
+    font-size: 27px
+    line-height: 32px
+    margin-bottom: 30px
+  &__btnLink
+    font-size: 32px
+  &__btnIcon
+
+  
+.btnIcon
+  outline: none
+  &__img
+    width: 72px
+    height: 72px
+    display: inline-block
+    background-image: url('/images/icons/playVideoBtn.png')
+    background-repeat: no-repeat
+    background-size: contain
+  &__text
+    padding-top: 10px
+    padding-bottom: 10px
+    color: #fff
+  &:hover,
+  &:active,
+  &:focus
+    outline: none
+    text-decoration: none
+
++media-down($lg)
+  .hero-blackFont__col
+    width: 100%
++media-down($md)
+  .hero-blackFont__title 
+    font-size: 26px
+    line-height: 30px
+  .hero-blackFont__desc
+    font-size: 22px
+    line-height: 26px
++media-down($sm)
+  .hero-blackFont
+    background-position: top left
+
+//
+// feature-section
+//
+  
+.feature-section
+  &__innerContainer
+    display: flex
+    margin-top: 30px
+    margin-bottom: 30px
+    justify-content: space-between
+
+.featureBlock
+  width: calc( 1/3*100% - (1 - 1/3)*20px )
+  box-shadow: $box-shadow
+  padding: 20px
+  &__icon
+    margin-bottom: 10px
+    display: block
+    max-width: 50%
+    text-align: center
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+    & img
+      margin-left: auto
+      margin-right: auto
+      display: inline-block
+  &__title
+    text-align: center
+    font-family: 'Decalotype-Bold'
+    font-size: 26px
+    line-height: 30px
+    text-transform: uppercase
+    margin-bottom: 20px
+  &__ul
+    list-style: none
+    vertical-align: middle
+    display: flex
+    flex-direction: column
+  &__li
+    vertical-align: middle
+    font-size: 18px
+    line-height: 24px
+    font-family: 'Decalotype-Regular'
+    display: block
+    padding-left: 20px
+    position: relative
+    &:before
+      content: ''
+      width: 8px
+      height: 8px
+      background-color: #000000
+      position: absolute
+      left: -5px
+      top: 10px
+
++media-down($lg)
+  .feature-section__innerContainer
+    flex-direction: column
+  .featureBlock
+    width: 100%
+    margin-bottom: 30px
+  .featureBlock:last-child
+    margin-bottom: 0
+  .featureBlock__title
+    font-size: 22px
+    line-height: 28px
+  .featureBlock__li
+    font-size: 16px
+    line-height: 22px
+
+
+//
+// darkReview-section 
+//
+
+.darkReview-section 
+  padding-top: 50px
+  padding-bottom: 70px
+  background-color: #1B1B1B
+  color: $c-lightTextMain
+  &__container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    width: 100%
+    position: relative
+    &:after
+      content: ''
+      width: 36px
+      height: 38px
+      background-image: url('/images/logo/lightLogoIcon.png')
+      background-repeat: no-repeat
+      position: absolute
+      bottom: 0
+      left: calc( 50% - 36px/2)
+  &__col
+    width: calc( 50% - 36px/2 - 15px )
+    border-bottom: 5px solid $c-lightTextMain
+    margin-bottom: 20px
+
+.darkReview-section__colImage
+  text-align: center
+.darkReviewImageBlock
+  position: relative
+  &__photo
+    text-align: center
+    &Img
+      display: inline-block
+  &__author
+    position: absolute
+    left: 0
+    right: 0
+    bottom: -45px
+    text-transform: uppercase
+    font-size: 14px
+    font-family: 'Decalotype-Bold'
+
+.darkReview-section__colText
+  display: flex
+.darkReviewTextBlock
+  display: flex
+  flex-direction: column
+  height: 100%
+  justify-content: center
+  &__title
+    font-family: 'Decalotype-Bold'
+    font-size: 26px
+    margin-bottom: 10px
+    color: $c-lightTextTitle
+  &__p
+    font-family: 'Decalotype-Regular'
+    color: $c-lightTextMain
+    font-size: 14px
+    line-height: 18px
+
++media-down($lg)
+  .darkReview-section 
+    padding-top: 30px
+    padding-bottom: 30px
+  .darkReview-section__container
+    flex-direction: column
+  .darkReview-section__container:after
+    display: none
+  .darkReview-section__col
+    width: 100%
+  .darkReviewImageBlock__author
+    display: none

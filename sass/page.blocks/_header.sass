@@ -1,0 +1,46 @@
+//
+// Header nav
+//
+
+.header
+  &__nav
+
+.mainNav
+  margin-top: 30px
+  margin-bottom: 30px
+  &__ul
+    list-style: none
+    padding-left: 0
+    display: flex
+    margin-bottom: 0
+    justify-content: space-between
+  &__li
+  &__a
+    color: $c-black
+    font-size: 21px
+    text-transform: uppercase
+    padding: 5px 15px
+    display: inline-block
+    display: none
+    &:hover,
+    &:active,
+    &:focus
+      color: #000
+
+
+.accentLink
+  background-color: $c-accentRed
+  padding-left: 30px
+  padding-right: 30px
+  transition:  $transitionAll
+  display: inline-block
+  &:hover,
+  &:active,
+  &:focus
+    color: #fff
+    text-decoration: none
+    background-color: darken(  $c-accentRed, 10%)
+
++media-down($lg)
+  .mainNav__ul
+    flex-direction: column

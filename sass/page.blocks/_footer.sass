@@ -1,0 +1,92 @@
+//
+// Footer
+//
+
+  
+.footer
+  margin-top: 30px
+  margin-bottom: 30px
+  &__container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+  &__col
+    width: 47%
+.footer__colInfo
+  padding-right: 20%
+.footer__colLogo
+
+.footerLogo
+  display: block
+  width: 226px
+  height: 49px
+  background-image: url(/images/logo/footerLogoSm.png)
+  margin-bottom: 20px
+
+.footerContactInfo
+  margin-bottom: 50px
+  &__text
+    font-family: 'Decalotype-Regular'
+    font-size: 20px
+    line-height: 26px
+    margin-bottom: 20px
+
+.footerSocial
+  display: flex
+  justify-content: space-between
+  font-size: 40px
+  &__a
+    display: flex
+    color: #000
+    border-radius: 50%
+    border: 4px solid #000
+    width: 80px
+    height: 80px
+    justify-content: center
+    align-items: center
+    &:hover,
+    &:focus,
+    &:active
+      text-decoration: none
+      outline: none
+      color: #3593C5
+      border: 4px solid #3593C5
+  
+
+.footer__colLogo
+  position: relative
+  &-text
+    color: #000
+    font-size: 60px
+    font-family: 'Decalotype-ExtraBold'
+    line-height: 62px
+  &-icon
+    position: absolute
+    top: -140px
+    right: 0
+    
++media-down($lg)
+  .footer__container
+  .footer__colInfo
+    padding-right: 10%
+  .footer__colLogo-icon
+    top: -100px
+    right: -40px
+  .footer__colLogo-icon>img
+    max-width: 200px
++media-down($md)
+  .footer__container
+    flex-direction: column
+  .footer__col
+    width: 100%
+  .footer__colInfo
+    margin-bottom: 30px
+  .footer__colLogo-text
+    font-size: 40px
+    line-height: 44px
+  .footer__colLogo-icon
+    top: 0
+    right: -40px
++media-down($md)
+  .footer__colInfo
+    padding-right: 0

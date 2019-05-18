@@ -1,0 +1,20 @@
+.btnLink
+  color: #fff
+  font-family: 'Decalotype-Regular'
+  background-color: $c-accentRed
+  padding: 14px 40px
+  display: inline-block
+  margin-bottom: 30px
+  transition:  $transitionAll
+  font-size: 32px
+  &:hover,
+  &:active,
+  &:focus
+    color: #fff
+    text-decoration: none
+    background-color: darken(  $c-accentRed, 10%)
+
++media-down($md)
+  .btnLink
+    padding: 10px 25px
+    font-size: 26px
